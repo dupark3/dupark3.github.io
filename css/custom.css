@@ -17,19 +17,19 @@
 }
 
 #about-me{
-    background-color: lightblue;
+    background-color: rgb(163,206,241);
 }
 
 #skills{
-    background-color:lightpink;
+    background-color: rgb(231,236,239);
 }
 
 #projects{
-    background-color:darkgrey;
+    background-color: rgba(39,76,119);
 }
 
 #footer{
-    background-color:grey;
+    background-color: rgb(26,24,27);
 }
 
 .img{
@@ -41,17 +41,24 @@
     padding-top: 5%;
     padding-bottom:5%;
 }
+
+.img-circle{
+    border-radius: 50%;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+
 .fill-container{
     height:50vh;
 }
 .large{
-    color: rgba(35,35,35,0.9);
+    color: rgba(72,67,92,0.9);
     font-size:16px;
     font-size:6vw;
 }
 
 .medium{
-    color: rgba(70,70,70,0.6);
+    color: rgba(90,87,102,0.6);
     font-size:16px;
     font-size:5vw;
 }
@@ -59,4 +66,23 @@
 .send-back{
     position:absolute;
     z-index: -1;
+}
+
+.boxed{
+    background-color: rgb(210,217,220);
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    border: solid;
+    border-width: 2px;
+    color: rgba(72,67,92,1);
+    border-color:rgba(72,67,92,0.7);
+}
+
+.centered{
+    text-align: center;
+}
+
+.grey{
+    color:rgb(231,236,239);
 }
