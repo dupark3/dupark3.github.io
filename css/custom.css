@@ -53,12 +53,14 @@
 }
 .large{
     color: rgba(72,67,92,0.9);
+    text-shadow: 0.5px 1px #fffff0;
     font-size:16px;
     font-size:6vw;
 }
 
 .medium{
-    color: rgba(90,87,102,0.6);
+    color: rgba(90,87,102,0.9);
+    text-shadow: 0.5px 1px #fffff0;
     font-size:16px;
     font-size:5vw;
 }
